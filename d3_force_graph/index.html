@@ -1,1 +1,18 @@
-text
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>force力导向图</title>
+        <link href="css/style.css" rel="stylesheet">
+        <script type="text/javascript"  src="media/js/jquery.js"></script>
+        <script src="d3.v3.js"></script>
+    </head>
+    <body>
+        <input type="button" value="查询" id="searchBtn"/>
+        <input type="button" value="图像拖动" id="yd"/>
+        <input type="button" value="框选" id="brushBtn"/>
+        <div id="graph">
+                <div><span id="tooltip" class="hiddenele">xxxx</span></div>
+                <div id="graph-content"></div>
+        </div>
+    </body>
